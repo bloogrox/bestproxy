@@ -6,7 +6,7 @@ setup(
     author='Aslan',
     author_email='bloogrox@gmail.com',
     packages=['bestproxy'],
-    url='https://github.com/bloogrox/best-proxy-api.git',
+    url='https://github.com/bloogrox/bestproxy.git',
     description='Python client for BestProxy.ru API',
     install_requires=[
         "requests",
