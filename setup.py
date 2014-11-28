@@ -12,6 +12,6 @@ setup(
         "requests"
     ],
     dependency_links=[
-        "https://github.com/bloogrox/http_build_query"
+        "https://github.com/bloogrox/http_build_query.git"
     ],
 )

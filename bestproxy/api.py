@@ -60,7 +60,6 @@ class Api(object):
         if self.last_request:
             time_delta = time.time() - self.last_request.timestamp
             if time_delta < 5:
-                self.log('sleeping %f' % time_delta)
                 time.sleep(5 - time_delta + 1)
 
         self.last_request = request
