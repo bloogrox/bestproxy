@@ -8,8 +8,10 @@ setup(
     packages=['bestproxy'],
     url='https://github.com/bloogrox/bestproxy.git',
     description='Python client for BestProxy.ru API',
-    install_requires=open('requirements.txt').readlines(),
-    # dependency_links=[
-    #     "https://github.com/bloogrox/http_build_query.git#egg=http_build_query"
-    # ],
+    install_requires=[
+        "requests"
+    ],
+    dependency_links=[
+        "git+ssh://git@github.com/bloogrox/http_build_query.git#egg=http_build_query"
+    ],
 )
