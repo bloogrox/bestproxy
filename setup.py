@@ -10,9 +10,10 @@ setup(
     description='Python client for BestProxy.ru API',
     install_requires=[
         "requests",
-        "-e git+https://github.com/bloogrox/http_build_query.git#egg=http_build_query"
+        "-e git://github.com/bloogrox/http_build_query.git#egg=http_build_query"
     ],
     dependency_links=[
-        "git+https://github.com/bloogrox/http_build_query.git#egg=http_build_query"
+        "git+https://github.com/bloogrox/http_build_query.git#egg=http_build_query",
+        "-e git://github.com/bloogrox/http_build_query.git#egg=http_build_query"
     ],
 )
