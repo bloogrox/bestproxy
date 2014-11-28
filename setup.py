@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='BestProxy API python client',
+    name='bestproxy',
     version='0.1.0',
     author='Aslan',
     author_email='bloogrox@gmail.com',
